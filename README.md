@@ -21,13 +21,13 @@ Built from scratch with plain **HTML, CSS and JavaScript** — no frameworks, li
 
 ## Tech stack
 
-| Layer      | Tools                                                     |
-| ---------- | --------------------------------------------------------- |
-| Markup     | HTML5                                                     |
-| Styling    | CSS3 — custom properties, Grid, Flexbox, media queries    |
-| Behaviour  | Vanilla JavaScript (ES6+) — IntersectionObserver, matchMedia |
-| Fonts      | Anton, Inter, Unbounded, JetBrains Mono (Google Fonts)    |
-| Hosting    | Vercel                                                    |
+| Layer     | Tools                                                        |
+| --------- | ------------------------------------------------------------ |
+| Markup    | HTML5                                                        |
+| Styling   | CSS3 — custom properties, Grid, Flexbox, media queries       |
+| Behaviour | Vanilla JavaScript (ES6+) — IntersectionObserver, matchMedia |
+| Fonts     | Anton, Inter, Unbounded, JetBrains Mono (Google Fonts)       |
+| Hosting   | Vercel                                                       |
 
 ## Project structure
 
@@ -50,7 +50,7 @@ collins-portfolio/
 No build step is needed.
 
 ```bash
-git clone https://github.com/<your-username>/collins-portfolio.git
+git clone https://github.com/SKD-W/collins-portfolio.git
 cd collins-portfolio
 ```
 
@@ -85,4 +85,5 @@ The site is static, so it deploys anywhere. On **Vercel**:
 ---
 
 © Ojiezele Collins Osas. Code is free to read and learn from; please don't reuse the personal content (text, photos, CV) as your own.
+
 # collins-portfolio
