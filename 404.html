@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Page not found | Collins Osas</title>
+    <meta name="theme-color" content="#0a2520" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230a2520'/%3E%3Ctext x='29' y='45' text-anchor='middle' font-family='Arial,sans-serif' font-weight='700' font-size='38' fill='%23e8f1ee'%3Ec%3C/text%3E%3Ccircle cx='47' cy='42' r='5' fill='%23cf8a3c'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600&family=JetBrains+Mono&family=Unbounded:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      /* Apply the saved or system theme before first paint */
+      (function () {
+        var saved = null;
+        try {
+          saved = localStorage.getItem("theme");
+        } catch (e) {}
+        var light = saved ? saved === "light" : window.matchMedia("(prefers-color-scheme: light)").matches;
+        document.documentElement.setAttribute("data-theme", light ? "light" : "dark");
+      })();
+    </script>
+    <!-- Absolute path so the stylesheet resolves from any missing URL -->
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      .not-found {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        padding: 2rem 1rem;
+        position: relative;
+        overflow: hidden;
+      }
+      .not-found::after {
+        content: "";
+        position: absolute;
+        width: 520px;
+        height: 520px;
+        right: -160px;
+        top: -120px;
+        background: radial-gradient(circle, var(--glow), transparent 65%);
+        pointer-events: none;
+      }
+      .not-found .logo {
+        position: absolute;
+        top: 1.25rem;
+        left: max(1rem, calc((100% - 1120px) / 2));
+      }
+      .code-404 {
+        font-family: var(--font-display);
+        font-size: clamp(6rem, 25vw, 12rem);
+        line-height: 1;
+        color: var(--accent);
+      }
+      .code-404 span {
+        color: var(--accent-hover);
+      }
+      .not-found p {
+        color: var(--muted);
+        max-width: 28rem;
+        margin: 1rem auto 2rem;
+      }
+      .not-found pre {
+        font: 0.85rem var(--font-mono);
+        color: var(--muted);
+        margin-bottom: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="not-found">
+      <a href="/" class="logo">collins<span>.</span></a>
+      <div>
+        <h1 class="code-404">4<span>0</span>4</h1>
+        <h2 class="display">Page not found</h2>
+        <p>The page you're looking for doesn't exist or has been moved.</p>
+        <pre>// return to a known route</pre>
+        <a href="/" class="btn">Back to home</a>
+      </div>
+    </main>
+  </body>
+</html>
