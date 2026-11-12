@@ -75,7 +75,7 @@ The site is static, so it deploys anywhere. On **Vercel**:
 - **Colours and theme** — edit the tokens at the top of `style.css` (`:root` for dark, `[data-theme="light"]` for light).
 - **Content** — all text lives in `index.html`; the code-editor card is defined in `initCodeCard()` in `script.js`.
 - **Images** — replace the files in `images/` (keep the same names, or update the paths in `index.html`).
-- **CV** — replace `assets/Ojiezele-Collins-Osas-CV.pdf`.
+- **CV** — replace `assets/Ojiezele-Collins-Osas.pdf`.
 
 ## Contact
 

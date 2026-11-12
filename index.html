@@ -11,8 +11,14 @@
     <meta name="theme-color" content="#0a2520" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Collins Osas | Frontend Developer" />
-    <meta property="og:description" content="Frontend Developer building fast, responsive web apps with React, Next.js and TypeScript." />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230a2520'/%3E%3Ctext x='29' y='45' text-anchor='middle' font-family='Arial,sans-serif' font-weight='700' font-size='38' fill='%23e8f1ee'%3Ec%3C/text%3E%3Ccircle cx='47' cy='42' r='5' fill='%23cf8a3c'/%3E%3C/svg%3E" />
+    <meta
+      property="og:description"
+      content="Frontend Developer building fast, responsive web apps with React, Next.js and TypeScript."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230a2520'/%3E%3Ctext x='29' y='45' text-anchor='middle' font-family='Arial,sans-serif' font-weight='700' font-size='38' fill='%23e8f1ee'%3Ec%3C/text%3E%3Ccircle cx='47' cy='42' r='5' fill='%23cf8a3c'/%3E%3C/svg%3E"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,10 +35,7 @@
         var light = saved
           ? saved === "light"
           : window.matchMedia("(prefers-color-scheme: light)").matches;
-        document.documentElement.setAttribute(
-          "data-theme",
-          light ? "light" : "dark",
-        );
+        document.documentElement.setAttribute("data-theme", light ? "light" : "dark");
       })();
     </script>
     <link rel="stylesheet" href="style.css" />
@@ -61,12 +64,7 @@
         <a href="#contact" class="btn btn-small">Hire me</a>
       </nav>
 
-      <button
-        class="theme-toggle"
-        id="themeToggle"
-        type="button"
-        aria-label="Switch to light mode"
-      >
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode">
         <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
           <circle cx="12" cy="12" r="4.5" />
           <path
@@ -82,32 +80,24 @@
     <main>
       <!-- ============ HERO ============ -->
       <section class="hero" id="home">
-        <div
-          class="hero-bg"
-          style="background-image: url(&quot;images/me-1.jpg&quot;)"
-        ></div>
+        <div class="hero-bg" style="background-image: url(&quot;images/me-1.jpg&quot;)"></div>
         <div class="container hero-inner">
           <div class="hero-text reveal">
             <p class="status">
-              <span class="dot"></span> Available for remote &amp; full-time
-              roles
+              <span class="dot"></span> Available for remote &amp; full-time roles
             </p>
             <h1 class="display">Ojiezele<br />Collins Osas</h1>
             <p class="hero-role">
-              I build <span id="typed" class="typed"></span
-              ><span class="cursor">|</span>
+              I build <span id="typed" class="typed"></span><span class="cursor">|</span>
             </p>
             <p class="hero-sub">
-              Frontend Developer at 7Forge LTD. I take products from idea to a
-              live, responsive interface — designed with care, built with React,
-              Next.js &amp; TypeScript, and shipped on time.
+              Frontend Developer at 7Forge LTD. I take products from idea to a live, responsive
+              interface — designed with care, built with React, Next.js &amp; TypeScript, and
+              shipped on time.
             </p>
             <div class="hero-actions">
               <a href="#projects" class="btn">See my work</a>
-              <a
-                href="assets/Ojiezele-Collins-Osas-CV.pdf"
-                class="btn btn-ghost"
-                download
+              <a href="assets/Ojiezele-Collins-Osas.pdf" class="btn btn-ghost" download
                 >Download CV ↓</a
               >
             </div>
@@ -119,10 +109,7 @@
 
           <div class="hero-photo reveal">
             <div class="photo-frame">
-              <img
-                src="images/me-1.jpg"
-                alt="Portrait of Collins Osas"
-              />
+              <img src="images/me-1.jpg" alt="Portrait of Collins Osas" />
             </div>
             <div class="badge">
               <strong>4+</strong>
@@ -130,20 +117,16 @@
             </div>
           </div>
         </div>
-        <a href="#about" class="scroll-hint" aria-label="Scroll to About"
-          ><span></span
-        ></a>
+        <a href="#about" class="scroll-hint" aria-label="Scroll to About"><span></span></a>
       </section>
 
       <!-- ============ TECH STRIP ============ -->
       <div class="marquee" aria-hidden="true">
         <div class="marquee-track" id="marqueeTrack">
-          <span>JavaScript</span><span>TypeScript</span><span>React</span
-          ><span>Next.js</span><span>React Native</span>
-          <span>Tailwind CSS</span><span>REST APIs</span
-          ><span>Git &amp; GitHub</span><span>Vercel</span> <span>HTML</span
-          ><span>CSS</span><span>UI/UX Design</span
-          ><span>Responsive Design</span>
+          <span>JavaScript</span><span>TypeScript</span><span>React</span><span>Next.js</span
+          ><span>React Native</span> <span>Tailwind CSS</span><span>REST APIs</span
+          ><span>Git &amp; GitHub</span><span>Vercel</span> <span>HTML</span><span>CSS</span
+          ><span>UI/UX Design</span><span>Responsive Design</span>
         </div>
       </div>
 
@@ -151,30 +134,23 @@
       <section class="section" id="about">
         <div class="container about-grid">
           <div class="about-photo reveal">
-            <img
-              src="images/me-2.jpg"
-              loading="lazy"
-              decoding="async"
-              alt="Collins at work"
-            />
+            <img src="images/me-2.jpg" loading="lazy" decoding="async" alt="Collins at work" />
           </div>
 
           <div class="about-text reveal">
             <p class="eyebrow">About me</p>
             <h2 class="display">From idea<br />to live product.</h2>
             <p>
-              I'm a frontend developer at <strong>7Forge LTD</strong>, building
-              modern, responsive websites and web applications with React and
-              Next.js. I turn designs and client requirements into clean,
-              working interfaces, wire them up to APIs, and make sure every page
-              feels right on any screen.
+              I'm a frontend developer at <strong>7Forge LTD</strong>, building modern, responsive
+              websites and web applications with React and Next.js. I turn designs and client
+              requirements into clean, working interfaces, wire them up to APIs, and make sure every
+              page feels right on any screen.
             </p>
             <p>
               Outside my role, I've designed, built and launched
-              <strong>Empowered2Play</strong> — a live tournament and prediction
-              platform — and I'm currently building <strong>Treda</strong>, a
-              marketplace for local businesses. When a project needs a skill I
-              don't have yet, I learn it fast.
+              <strong>Empowered2Play</strong> — a live tournament and prediction platform — and I'm
+              currently building <strong>Treda</strong>, a marketplace for local businesses. When a
+              project needs a skill I don't have yet, I learn it fast.
             </p>
 
             <ul class="stats">
@@ -187,8 +163,7 @@
                 ><span>Featured builds</span>
               </li>
               <li>
-                <strong class="count" data-target="100" data-suffix="%"
-                  >0</strong
+                <strong class="count" data-target="100" data-suffix="%">0</strong
                 ><span>Mobile-first</span>
               </li>
             </ul>
@@ -207,48 +182,42 @@
               <span class="service-num">01</span>
               <h3>Frontend Development</h3>
               <p>
-                Production-ready React and Next.js apps with clean, reusable
-                components that other developers enjoy working in.
+                Production-ready React and Next.js apps with clean, reusable components that other
+                developers enjoy working in.
               </p>
             </article>
             <article class="service reveal">
               <span class="service-num">02</span>
               <h3>Pixel-Careful, Responsive UI</h3>
               <p>
-                Designs translated faithfully — and tested from 320px phones to
-                wide desktop screens.
+                Designs translated faithfully — and tested from 320px phones to wide desktop
+                screens.
               </p>
             </article>
             <article class="service reveal">
               <span class="service-num">03</span>
               <h3>API Integration</h3>
               <p>
-                Connecting interfaces to REST APIs with sensible loading, empty
-                and error states, so the UI never leaves users guessing.
+                Connecting interfaces to REST APIs with sensible loading, empty and error states, so
+                the UI never leaves users guessing.
               </p>
             </article>
             <article class="service reveal">
               <span class="service-num">04</span>
               <h3>Ship &amp; Maintain</h3>
               <p>
-                Testing, bug fixing and deploying on Vercel — then iterating
-                based on real user feedback.
+                Testing, bug fixing and deploying on Vercel — then iterating based on real user
+                feedback.
               </p>
             </article>
           </div>
 
           <!-- Process -->
           <div class="process reveal">
-            <div class="step">
-              <b>Understand</b><span>the goal &amp; the users</span>
-            </div>
+            <div class="step"><b>Understand</b><span>the goal &amp; the users</span></div>
             <div class="step"><b>Design</b><span>layout &amp; flows</span></div>
-            <div class="step">
-              <b>Build</b><span>components &amp; APIs</span>
-            </div>
-            <div class="step">
-              <b>Ship</b><span>test, deploy, improve</span>
-            </div>
+            <div class="step"><b>Build</b><span>components &amp; APIs</span></div>
+            <div class="step"><b>Ship</b><span>test, deploy, improve</span></div>
           </div>
         </div>
       </section>
@@ -263,9 +232,7 @@
           <article class="case reveal">
             <div class="case-media">
               <div class="browser">
-                <div class="browser-bar">
-                  <i></i><i></i><i></i><span>empowered2play.com</span>
-                </div>
+                <div class="browser-bar"><i></i><i></i><i></i><span>empowered2play.com</span></div>
                 <img
                   src="images/project-e2p.jpg"
                   loading="lazy"
@@ -278,30 +245,22 @@
               <span class="tag">Case study · Live product</span>
               <h3>Empowered2Play</h3>
               <p class="lead">
-                A competitive platform where football fans and gamers go
-                head-to-head.
+                A competitive platform where football fans and gamers go head-to-head.
               </p>
 
               <div class="case-block">
                 <h4>The challenge</h4>
                 <p>
-                  Run peer-to-peer football predictions and full gaming
-                  tournaments (CODM, eFootball) in one place — without confusing
-                  players.
+                  Run peer-to-peer football predictions and full gaming tournaments (CODM,
+                  eFootball) in one place — without confusing players.
                 </p>
               </div>
               <div class="case-block">
                 <h4>What I built</h4>
                 <ul class="checks">
-                  <li>
-                    Tournament flow from qualifiers to group stages to knockouts
-                  </li>
-                  <li>
-                    Peer-to-peer prediction experience for football matches
-                  </li>
-                  <li>
-                    Responsive Next.js interface, deployed and live on Vercel
-                  </li>
+                  <li>Tournament flow from qualifiers to group stages to knockouts</li>
+                  <li>Peer-to-peer prediction experience for football matches</li>
+                  <li>Responsive Next.js interface, deployed and live on Vercel</li>
                 </ul>
               </div>
 
@@ -327,20 +286,14 @@
               <span class="tag tag-live">In production</span>
               <h3>Treda — Local Marketplace</h3>
               <p>
-                A marketplace that takes local businesses "from street to
-                screen". Entrepreneurs, artisans and service providers open a
-                digital shop in minutes, while buyers discover, compare and
-                order from trusted local stores and services in one place.
+                A marketplace that takes local businesses "from street to screen". Entrepreneurs,
+                artisans and service providers open a digital shop in minutes, while buyers
+                discover, compare and order from trusted local stores and services in one place.
               </p>
               <ul class="checks">
-                <li>
-                  Seller shops with a dashboard for orders and performance
-                </li>
+                <li>Seller shops with a dashboard for orders and performance</li>
                 <li>Buyer discovery, comparison, ordering and booking</li>
-                <li>
-                  Verified sellers and secure, protected checkout for every
-                  order
-                </li>
+                <li>Verified sellers and secure, protected checkout for every order</li>
               </ul>
               <ul class="chips">
                 <li>Marketplace</li>
@@ -384,7 +337,12 @@
             </button>
           </div>
 
-          <div class="timeline tab-panel active" id="work" role="tabpanel" aria-labelledby="tab-work">
+          <div
+            class="timeline tab-panel active"
+            id="work"
+            role="tabpanel"
+            aria-labelledby="tab-work"
+          >
             <article class="ticket reveal">
               <div class="ticket-head">
                 <span class="date">Aug 2024 — Present</span>
@@ -394,20 +352,16 @@
               <div class="ticket-body">
                 <ul>
                   <li>
-                    Build and maintain responsive websites and web apps with
-                    React and Next.js.
+                    Build and maintain responsive websites and web apps with React and Next.js.
+                  </li>
+                  <li>Turn designs and client requirements into clean, functional interfaces.</li>
+                  <li>
+                    Connect front-end features to APIs and keep every page smooth on mobile and
+                    desktop.
                   </li>
                   <li>
-                    Turn designs and client requirements into clean, functional
-                    interfaces.
-                  </li>
-                  <li>
-                    Connect front-end features to APIs and keep every page
-                    smooth on mobile and desktop.
-                  </li>
-                  <li>
-                    Own testing, bug fixing and deployments, delivering projects
-                    on time with the team.
+                    Own testing, bug fixing and deployments, delivering projects on time with the
+                    team.
                   </li>
                 </ul>
               </div>
@@ -422,16 +376,19 @@
               <div class="ticket-body">
                 <ul>
                   <li>Design and pitch websites to local businesses.</li>
-                  <li>
-                    Build preview sites and deploy them on Vercel for client
-                    review.
-                  </li>
+                  <li>Build preview sites and deploy them on Vercel for client review.</li>
                 </ul>
               </div>
             </article>
           </div>
 
-          <div class="timeline tab-panel" id="school" role="tabpanel" aria-labelledby="tab-school" hidden>
+          <div
+            class="timeline tab-panel"
+            id="school"
+            role="tabpanel"
+            aria-labelledby="tab-school"
+            hidden
+          >
             <article class="ticket reveal">
               <div class="ticket-head">
                 <span class="date">2023 — 2024</span>
@@ -454,8 +411,7 @@
               <div class="ticket-body">
                 <ul>
                   <li>
-                    Foundations in programming, algorithms, databases and
-                    software engineering.
+                    Foundations in programming, algorithms, databases and software engineering.
                   </li>
                 </ul>
               </div>
@@ -471,8 +427,7 @@
             <p class="eyebrow">Toolbox</p>
             <h2 class="display">Skills &amp; tools</h2>
             <p class="muted">
-              The stack I use every day to go from a blank screen to a live
-              product.
+              The stack I use every day to go from a blank screen to a live product.
             </p>
 
             <div class="skill-groups">
@@ -515,9 +470,7 @@
 
           <!-- Code editor card -->
           <div class="editor reveal" aria-label="Developer profile as code">
-            <div class="editor-bar">
-              <i></i><i></i><i></i><span>collins.js</span>
-            </div>
+            <div class="editor-bar"><i></i><i></i><i></i><span>collins.js</span></div>
             <pre><code id="profileCode"></code></pre>
           </div>
         </div>
@@ -530,8 +483,8 @@
             <p class="eyebrow">Contact</p>
             <h2 class="display">Let's build<br />something great.</h2>
             <p>
-              Hiring for a frontend role or need a reliable developer on your
-              team? I usually reply within 24 hours.
+              Hiring for a frontend role or need a reliable developer on your team? I usually reply
+              within 24 hours.
             </p>
             <ul class="contact-list">
               <li>
@@ -540,15 +493,10 @@
                   <a href="mailto:user.collins.add@gmail.com" id="emailLink"
                     >user.collins.add@gmail.com</a
                   >
-                  <button class="copy-btn" id="copyEmail" type="button">
-                    Copy
-                  </button>
+                  <button class="copy-btn" id="copyEmail" type="button">Copy</button>
                 </div>
               </li>
-              <li>
-                <span>Phone</span
-                ><a href="tel:+2347044813596">+234 704 481 3596</a>
-              </li>
+              <li><span>Phone</span><a href="tel:+2347044813596">+234 704 481 3596</a></li>
               <li>
                 <span>LinkedIn</span
                 ><a
@@ -559,10 +507,7 @@
                 >
               </li>
             </ul>
-            <a
-              href="assets/Ojiezele-Collins-Osas-CV.pdf"
-              class="btn btn-ghost"
-              download
+            <a href="assets/Ojiezele-Collins-Osas.pdf" class="btn btn-ghost" download
               >Download my CV ↓</a
             >
           </div>
@@ -570,22 +515,12 @@
           <form class="contact-form reveal" id="contactForm" novalidate>
             <div class="field">
               <label for="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Your name"
-              />
+              <input type="text" id="name" name="name" placeholder="Your name" />
               <small class="error"></small>
             </div>
             <div class="field">
               <label for="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="you@company.com"
-              />
+              <input type="email" id="email" name="email" placeholder="you@company.com" />
               <small class="error"></small>
             </div>
             <div class="field">
@@ -608,10 +543,7 @@
     <footer class="footer">
       <div class="container footer-inner">
         <a href="#home" class="logo">collins<span>.</span></a>
-        <p>
-          © <span id="year"></span> Ojiezele Collins Osas. Designed &amp;
-          hand-coded by me.
-        </p>
+        <p>© <span id="year"></span> Ojiezele Collins Osas. Designed &amp; hand-coded by me.</p>
       </div>
     </footer>
 
