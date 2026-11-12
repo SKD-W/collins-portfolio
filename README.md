@@ -4,7 +4,7 @@ Personal portfolio of **Ojiezele Collins Osas**, Frontend Developer (React, Next
 
 Built from scratch with plain **HTML, CSS and JavaScript** — no frameworks, libraries or templates.
 
-**Live site:** _add link after deployment_
+**Live site:** [collinsosas.is-a.dev](https://collinsosas.is-a.dev)
 
 ---
 
@@ -81,9 +81,9 @@ The site is static, so it deploys anywhere. On **Vercel**:
 
 - Email: [user.collins.add@gmail.com](mailto:user.collins.add@gmail.com)
 - LinkedIn: [Osas Collins](https://www.linkedin.com/in/osas-collins-7057a8264)
+- GitHub: [SKD-W](https://github.com/SKD-W)
+- Portfolio: [collinsosas.is-a.dev](https://collinsosas.is-a.dev)
 
 ---
 
 © Ojiezele Collins Osas. Code is free to read and learn from; please don't reuse the personal content (text, photos, CV) as your own.
-
-# collins-portfolio
